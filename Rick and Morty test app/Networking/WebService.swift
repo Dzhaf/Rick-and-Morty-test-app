@@ -37,7 +37,7 @@ class WebService {
                 if let characters = characters.results {
                     completed(.success(characters))
                 }else{
-                    print("sıkıntı var")
+                    print("oops var")
                 }
             }catch{
                 completed(.failure(.invalidData))
